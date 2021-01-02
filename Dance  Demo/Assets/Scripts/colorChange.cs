@@ -18,8 +18,6 @@ public class colorChange : MonoBehaviour
         while(time > 0f)
         {
             Color newColor = new Color(Random.Range(0F, 1F), Random.Range(0, 1F), Random.Range(0, 1F));
-            print(newColor);
-            // apply it on current object's material
             foreach(GameObject go in floors)
             {
                 go.GetComponent<Renderer>().material.color = newColor;
