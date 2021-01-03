@@ -1,20 +1,33 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Rotate : MonoBehaviour
 {
-    public AudioSource audio;
+    public AudioSource music;
+    public Slider musicSlider;
 
-    // Start is called before the first frame update
-    void Start()
+
+    private void Start()
     {
-        
+        music.volume = PlayerPrefs.GetFloat("volume");
+        musicSlider.value = music.volume;
     }
+
+
 
     // Update is called once per frame
     void Update()
-    { 
-        transform.Rotate(0, 45 * Time.deltaTime * audio.volume * 8, 0);
+    {
+        transform.Rotate(0, 45 * Time.deltaTime * music.volume * 8, 0);
     }
+
+
+    public void MasterVolume(float mastVolume)
+    {
+        music.volume = mastVolume;
+        PlayerPrefs.SetFloat("volume", music.volume);
+        PlayerPrefs.Save();
+    } 
 }
