@@ -47,6 +47,11 @@ public class Movement : MonoBehaviour
         {
             rb.AddForce(jump * jumpForce, ForceMode.VelocityChange);
         }
+
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            rb.AddForce(-(jump * jumpForce), ForceMode.VelocityChange);
+        }
     }
   
 }
