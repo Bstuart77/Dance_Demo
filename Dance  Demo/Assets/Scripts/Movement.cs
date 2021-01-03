@@ -19,7 +19,7 @@ public class Movement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         sens = 10f;
-        moveSpeed = 150f;
+        moveSpeed = 500f;
         xRotate = 0;
         yRotate = 0;
         jumpForce = 3f;
