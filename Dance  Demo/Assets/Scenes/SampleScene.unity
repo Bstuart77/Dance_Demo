@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -163,9 +164,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &6618347
 MeshRenderer:
@@ -181,6 +182,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -252,8 +254,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14320541}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0.5235849, g: 0.5338889, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -343,8 +346,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33514139}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0.5235849, g: 0.5338889, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -456,6 +460,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -562,9 +567,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &73041807
 MeshRenderer:
@@ -580,6 +585,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -651,8 +657,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 87272386}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0.79232, g: 0.8018868, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -742,8 +749,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168454026}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0.74597883, g: 0, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -837,9 +845,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &256375959
 MeshRenderer:
@@ -855,6 +863,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -966,9 +975,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &279123552
 MeshRenderer:
@@ -984,6 +993,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1059,9 +1069,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &372464785
 MeshRenderer:
@@ -1077,6 +1087,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1148,8 +1159,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 375784385}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 1, g: 0.31285512, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -1317,9 +1329,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &393246544
 MeshRenderer:
@@ -1335,6 +1347,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1442,8 +1455,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 399960445}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0.6565428, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -1537,9 +1551,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &431758346
 MeshRenderer:
@@ -1555,6 +1569,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1630,9 +1645,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &445576622
 MeshRenderer:
@@ -1648,6 +1663,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1769,9 +1785,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1861673265}
         m_MethodName: MasterVolume
-        m_Mode: 4
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1819,8 +1835,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 585557736}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0.79232, g: 0.8018868, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -1914,9 +1931,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &600447672
 MeshRenderer:
@@ -1932,6 +1949,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2003,8 +2021,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 623977059}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0, g: 1, b: 0.5257528, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -2098,9 +2117,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &639214748
 MeshRenderer:
@@ -2116,6 +2135,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2191,9 +2211,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &664826711
 MeshRenderer:
@@ -2209,6 +2229,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2284,9 +2305,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &664926138
 MeshRenderer:
@@ -2302,6 +2323,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2377,9 +2399,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &668850593
 MeshRenderer:
@@ -2395,6 +2417,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2452,8 +2475,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -2557,8 +2581,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 740742418}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -2648,8 +2673,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770199652}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0.5235849, g: 0.5338889, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -2712,7 +2738,6 @@ GameObject:
   - component: {fileID: 783113561}
   - component: {fileID: 783113560}
   - component: {fileID: 783113559}
-  - component: {fileID: 783113563}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2771,7 +2796,7 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -2800,18 +2825,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &783113563
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 783113558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 460928b569f759a419a31f446f76dd0a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &836748869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2819,10 +2832,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: 3cc11f89083960444bfbaf22adb63235,
+    - target: {fileID: -4216859302048453862, guid: 3cc11f89083960444bfbaf22adb63235,
         type: 3}
-      propertyPath: m_Name
-      value: discoBall
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3cc11f89083960444bfbaf22adb63235,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3cc11f89083960444bfbaf22adb63235,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3cc11f89083960444bfbaf22adb63235,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3cc11f89083960444bfbaf22adb63235,
         type: 3}
@@ -2841,6 +2869,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3cc11f89083960444bfbaf22adb63235,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3cc11f89083960444bfbaf22adb63235,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -2853,16 +2886,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 3cc11f89083960444bfbaf22adb63235,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 3cc11f89083960444bfbaf22adb63235,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 3cc11f89083960444bfbaf22adb63235,
         type: 3}
@@ -2879,20 +2902,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 3cc11f89083960444bfbaf22adb63235,
+    - target: {fileID: -927199367670048503, guid: 3cc11f89083960444bfbaf22adb63235,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 3cc11f89083960444bfbaf22adb63235,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: -4216859302048453862, guid: 3cc11f89083960444bfbaf22adb63235,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 20
+      propertyPath: m_Name
+      value: discoBall
       objectReference: {fileID: 0}
     - target: {fileID: 4848594794600692302, guid: 3cc11f89083960444bfbaf22adb63235,
         type: 3}
@@ -2944,9 +2957,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &840583848
 MeshRenderer:
@@ -2962,6 +2975,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3037,9 +3051,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &869713702
 MeshRenderer:
@@ -3055,6 +3069,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3126,8 +3141,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921148495}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0, g: 1, b: 0.9139128, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -3217,8 +3233,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 946828668}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0, g: 0.9528302, b: 0.09315387, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -3308,8 +3325,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 999914168}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0.764151, g: 0.4793966, b: 0.70360166, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -3399,8 +3417,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010495227}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0.79232, g: 0.8018868, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -3490,8 +3509,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044029503}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 1, g: 0.08327952, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -3585,9 +3605,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1059342639
 MeshRenderer:
@@ -3603,6 +3623,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3674,8 +3695,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1089013510}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0.06978583, g: 1, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -3769,9 +3791,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1100009374
 MeshRenderer:
@@ -3787,6 +3809,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3895,9 +3918,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1142651832
 MeshRenderer:
@@ -3913,6 +3936,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3988,9 +4012,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1172143123
 MeshRenderer:
@@ -4006,6 +4030,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4081,9 +4106,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 0
+  m_CookingOptions: 16
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1201760222
 MeshRenderer:
@@ -4099,6 +4124,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4170,8 +4196,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222616801}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0.06978583, g: 1, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -4274,6 +4301,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4334,8 +4362,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253701158}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0.5235849, g: 0.5338889, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -4438,6 +4467,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4562,9 +4592,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1316699967
 MeshRenderer:
@@ -4580,6 +4610,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4653,8 +4684,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360626258}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 1
+  m_Shape: 0
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 85.16
@@ -4731,6 +4763,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4881,9 +4914,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1393335945
 MeshRenderer:
@@ -4899,6 +4932,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4975,9 +5009,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1466692595
 MeshRenderer:
@@ -4993,6 +5027,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5084,9 +5119,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1470885607
 MeshRenderer:
@@ -5102,6 +5137,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5173,8 +5209,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1531204942}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0.8773585, g: 0.43454075, b: 0.724543, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -5277,6 +5314,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5337,8 +5375,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578382290}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0, g: 0.9528302, b: 0.09315387, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -5508,9 +5547,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1613614673
 MeshRenderer:
@@ -5526,6 +5565,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5597,8 +5637,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613863220}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0.79232, g: 0.8018868, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -5793,9 +5834,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1696923564
 MeshRenderer:
@@ -5811,6 +5852,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5882,8 +5924,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1704209580}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0.58346605, g: 0, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -5973,8 +6016,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1755428068}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0, g: 0.2328887, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -6064,8 +6108,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1810981233}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0.06978583, g: 1, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -6159,9 +6204,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1821345576
 MeshRenderer:
@@ -6177,6 +6222,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6252,9 +6298,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1823426408
 MeshRenderer:
@@ -6270,6 +6316,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6341,8 +6388,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1853527042}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 0.06978583, g: 1, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -6558,9 +6606,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1950764978
 MeshRenderer:
@@ -6576,6 +6624,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6717,9 +6766,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &2018088479
 MeshRenderer:
@@ -6735,6 +6784,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6810,9 +6860,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &2077398452
 MeshRenderer:
@@ -6828,6 +6878,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6899,8 +6950,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085169942}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 28959
@@ -6994,9 +7046,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &2127424416
 MeshRenderer:
@@ -7012,6 +7064,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7083,8 +7136,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2142186836}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 28959
