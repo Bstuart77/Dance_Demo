@@ -1,4 +1,4 @@
-# Dance_Demo
+# Dance App
 
 A game inspired by the dance scene of "Ready Player One". 
 
